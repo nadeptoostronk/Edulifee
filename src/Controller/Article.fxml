@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Article">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0">
+         <image>
+            <Image url="@../Image/BlurPage.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="articleButton" layoutX="1020.0" layoutY="56.0" mnemonicParsing="false" onAction="#ArticlePage" styleClass="btncreate2" stylesheets="@../CSS/Design.css" text="ARTICLE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="quizButton" layoutX="1136.0" layoutY="56.0" mnemonicParsing="false" onAction="#QuizPage" styleClass="btncreate2" stylesheets="@../CSS/Design.css" text="QUIZ">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="31.0" layoutY="153.0" text="Memahami Perubahan Iklim" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <VBox layoutX="31.0" layoutY="204.0" prefHeight="500.0" prefWidth="1217.0">
+         <children>
+            <ScrollPane prefHeight="490.0" prefWidth="1200.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2500.0" prefWidth="1220.0">
+                     <children>
+                        <ImageView fitHeight="553.0" fitWidth="810.0" layoutX="20.0" layoutY="25.0">
+                           <image>
+                              <Image url="@../Image/perubahanIklim.jpg" />
+                           </image>
+                        </ImageView>
+                        <JFXTextArea layoutX="20.0" layoutY="585.0" prefHeight="1874.0" prefWidth="1149.0" text="Pengertian Iklim dan Perubahan Iklim&#10;Pada umumnya orang sering menyatakan kondisi iklim sama saja dengan kondisi cuaca, padahal kedua istilah tersebut adalah suatu kondisi yang tidak sama.&#10;&#10;Beberapa definisi cuaca adalah :&#10;&#10;•&#9;Keadaan atmosfer secara keseluruhan pada suatu saat termasuk perubahan, perkembangan dan menghilangnya suatu fenomena (World Climate Conference, 1979).&#10;•&#9;Keadaan variable atmosfer secara keseluruhan disuatu tempat dalam selang waktu yang pendek (Glen T. Trewartha, 1980).&#10;•&#9;Keadaan atmosfer yang dinyatakan dengan nilai berbagai parameter, antara lain suhu, tekanan, angin, kelembaban dan berbagai fenomena hujan, disuatu tempat atau wilayah selama kurun waktu yang pendek (menit, jam, hari, bulan, musim, tahun) (Gibbs, 1987).&#10;Ilmu yang mempelajari seluk beluk tentang cuaca disebut meteorologi.&#10;&#10;Sedangkan iklim didefinisikan sebagai berikut :&#10;&#10;•&#9;Sintesis kejadian cuaca selama kurun waktu yang panjang, yang secara statistik cukup dapat dipakai untuk menunjukkan nilai statistik yang berbeda dengan keadaan pada setiap saatnya (World Climate Conference, 1979).&#10;•&#9;Konsep abstrak yang menyatakan kebiasaan cuaca dan unsur-unsur atmosfer disuatu daerah selama kurun waktu yang panjang (Glenn T. Trewartha, 1980).&#10;•&#9;Peluang statistik berbagai keadaan atmosfer, antara lain suhu, tekanan, angin kelembaban, yang terjadi disuatu daerah selama kurun waktu yang panjang (Gibbs,1987).&#10;Ilmu yang mempelajari seluk beluk tentang iklim disebut klimatologi.&#10;&#10;Adapun definisi perubahan iklim adalah berubahnya kondisi fisik atmosfer bumi antara lain suhu dan distribusi curah hujan yang membawa dampak luas terhadap berbagai sektor kehidupan manusia (Kementerian Lingkungan Hidup, 2001). Perubahan fisik ini tidak terjadi hanya sesaat tetapi dalam kurun waktu yang panjang. LAPAN (2002) mendefinisikan perubahan iklim adalah perubahan rata-rata salah satu atau lebih elemen cuaca pada suatu daerah tertentu. Sedangkan istilah perubahan iklim skala global adalah perubahan iklim dengan acuan wilayah bumi secara keseluruhan. IPCC (2001) menyatakan bahwa perubahan iklim merujuk pada variasi rata-rata kondisi iklim suatu tempat atau pada variabilitasnya yang nyata secara statistik untuk jangka waktu yang panjang (biasanya dekade atau lebih). Selain itu juga diperjelas bahwa perubahan iklim mungkin karena proses alam internal maupun ada kekuatan eksternal, atau ulah manusia yang terus menerus merubah komposisi atmosfer dan tata guna lahan.&#10;&#10;Istilah perubahan iklim sering digunakan secara tertukar dengan istilah ’pemanasan global’, padahal fenomena pemanasan global hanya merupakan bagian dari perubahan iklim, karena parameter iklim tidak hanya temperatur saja, melainkan ada parameter lain yang terkait seperti presipitasi, kondisi awan, angin, maupun radiasi matahari. Pemanasan global merupakan peningkatan rata-rata temperatur atmosfer yang dekat dengan permukaan bumi dan di troposfer, yang dapat berkontribusi pada perubahan pola iklim global. Pemanasan global terjadi sebagai akibat meningkatnya jumlah emisi Gas Rumah Kaca (GRK) di atmosfer. Naiknya intensitas efek rumah kaca yang terjadi karena adanya gas dalam atmosfer yang menyerap sinar panas yaitu sinar infra merah yang dipancarkan oleh bumi menjadikan perubahan iklim global (Budianto, 2000).&#10;&#10;Meskipun pemanasan global hanya merupakan 1 bagian dalam fenomena perubahan iklim, namun pemanasan global menjadi hal yang penting untuk dikaji. Hal tersebut karena perubahan temperatur akan memperikan dampak yang signifikan terhadap aktivitas manusia. Perubahan temperatur bumi dapat mengubah kondisi lingkungan yang pada tahap selanjutkan akan berdampak pada tempat dimana kita dapat hidup, apa tumbuhan yang kita makan dapat tumbuh, bagaimana dan dimana kita dapat menanam bahan makanan, dan organisme apa yang dapat mengancam. Ini artinya bahwa pemanasan global akan mengancam kehidupan manusia secara menyeluruh.&#10;&#10;Studi perubahan iklim melibatkan analisis iklim masa lalu, kondisi iklim saat ini, dan estimasi kemungkinan iklim di masa yang akan datang (beberapa dekade atau abad ke depan). Hal ini tidak terlepas juga dari interaksi dinamis antara sejumlah komponen sistem iklim seperti atmosfer, hidrofer (terutama lautan dan sungai), kriosfer, terestrial dan biosfer, dan pedosfer. Dengan demikian, dalam studi-studi mengenai perubahan iklim dibutuhkan penilaian yang terintegrasi terhadap sistem iklim atau sistem bumi.&#10;&#10;&#10;PERUBAHAN IKLIM (GLOBAL CLIMATE CHANGE)&#10;Fenomena pemanasan global yang mengakibatkan perubahan iklim berdampak terjadinya perubahan sosial atau kependudukan dan budaya. Berbagai kajian sosial menemukan bahwa pola hubungan sosial berkaitan sangat erat dengan pola iklim. Hasil kajian IPCC (2007) menunjukkan bahwa sejak tahun 1850 tercatat adanya 12 tahun terpanas berdasarkan data temperatur permukaan global. Sebelas dari duabealas tahun terpanas tersebut terjadi dalam waktu 12 tahun terakhir ini. Kenaikan temperatur total dari tahun 1850-1899 sampai dengan tahun 2001-2005 adalah 0,76Ëš. Permukaan air laut rata-rata global telah meningkat dengan laju rata-rata 1.8 mm per-tahun dalam rentang waktu antara lain antara tahun 1961-2003. Kenaikan total permukaan air laut yang berhasil dicatat pada abad ke-20 diperkirakan 0,17 m. Laporan IPCC juga menyatakan bahwa kegiatan manusia ikut berperan dalam pemanasan global sejak pertengahan abad ke-20.    Pemanasan global akan terus meningkat dengan percepatan yang lebih tinggi pada abad ke-21 apabila tidak ada upaya menanggulanginya.&#10;Pemanasan global mengakibatkan perubahan iklim dan kenaikan frekwensi maupun intensitas kejadian cuaca ekstrim. IPCC menyatakan bahwa pemanasan globa dapat menyebabkan terjadi perubahan yang signifikan dalam sistem fisik dan biologis seperti peningkatan intensitas badai tropis, perubahan pola presipitasi, salinitas air laut, perubahan pola angin,mempengaruhi masa reproduksi hewan dan tanaman, distribusi spesies dan ukuran populasi, frekuensi serangan hama dan wabah penyakit, serta mempengaruhi berbagai ekosistem yang terdapat di daerah dengan garis lintang yang tinggi (termasuk ekosistem di daerah Artuka dan Antartika), lokasi yang tinggi, serta ekosistem-ekosistem pantai.&#10;Jika tidak ada upaya yang sistematis dan terintegrasi untuk meningkatkan ketahanan terhadap perubahan iklim dan perbaikan kondisi lingkungan lokal dan global mulai dari sekarang, maka dampak yang ditimbulkan akibat adanya perubahan iklim ke depan akan semakin besar dan lebih lanjut akan berdampak pada sulitnya mencapai sistem pembangunan yang berkelanjutan.Penanganan masa perubahan iklim dalam konteks pembangunan membutuhkan manajemen perubahan iklim secara efektif, dan pada saat bersamaan mengantisispasi dampak perubahan iklim global jangka panjang secara komprehensif. Juga membutuhkan pendekatan lintas sektor baik pada tingkat nasional, regional maupun lokal.Dalam menghadai perubahan iklim, penigkatan ketahanan sistem dalam masyarakat untuk mengurangi resiko bahaya perubahan iklim dilakukan melalui upaya adaptasi dan mitigasi.&#10;Adaptasi merupakan tindakan penyesuain sistem alam dan sosial untuk menghadapi dampak negatif dari perubahan iklim. Namun upaya tersebut akan sulit memberi mandaat secara efektif apabila laju perubahan iklim melebihi kemampuan beradaptasi. Oleh karena itu, adaptasi harus diimbangi dengan mitigasi, yaitu upaya mengurangi sumber maupun peningkatan rosot (penyerap) gas rumah kaca, agar suspaya proses pembangunan tidak terhambat dan tujuan pembangunan berkelanjutan dapat tercapai. Dengan demikian, generasi yang akan datang tidak terbebani oleh ancaman perubahan iklim secara lebih berat.">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </JFXTextArea>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+      <Button fx:id="homeButton" layoutX="904.0" layoutY="56.0" mnemonicParsing="false" onAction="#HomePage" styleClass="btncreate2" stylesheets="@../CSS/Design.css" text="HOME">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="39.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/edulifeTitle.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
