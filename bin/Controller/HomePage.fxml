@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HomePage">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0">
+         <image>
+            <Image url="@../Image/HomePage.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="articleButton" layoutX="1020.0" layoutY="56.0" mnemonicParsing="false" onAction="#ArticlePage" styleClass="btncreate2" stylesheets="@../CSS/Design.css" text="ARTICLE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="quizButton" layoutX="1136.0" layoutY="56.0" mnemonicParsing="false" onAction="#QuizPage" styleClass="btncreate2" stylesheets="@../CSS/Design.css" text="QUIZ">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="904.0" layoutY="56.0" mnemonicParsing="false" styleClass="btncreate2" stylesheets="@../CSS/Design.css" text="HOME">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="39.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/edulifeTitle.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
